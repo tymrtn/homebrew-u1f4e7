@@ -1,7 +1,7 @@
 # Copyright (c) 2026 Tyler Martin
 # Licensed under FSL-1.1-ALv2
 
-class U1f4e7 < Formula
+class Envelope < Formula
   desc "Envelope Email — BYO mailbox email client with agent-native primitives"
   homepage "https://u1f4e7.com"
   url "https://github.com/tymrtn/U1F4E7/archive/refs/tags/v1.3.2.tar.gz"
