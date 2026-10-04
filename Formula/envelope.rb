@@ -4,8 +4,8 @@
 class Envelope < Formula
   desc "All your email accounts in one inbox, shared with your agents"
   homepage "https://u1f4e7.com"
-  url "https://github.com/tymrtn/U1F4E7/archive/refs/tags/v1.3.15.tar.gz"
-  sha256 "fa69f49d7485317ed049d6ad6d892bc84a6ee5fe49db5310bdb31b03dcf14581"
+  url "https://github.com/tymrtn/U1F4E7/archive/refs/tags/v1.3.16.tar.gz"
+  sha256 "c017ade940f675a29dfb88a3957596dcd57d603fd4f4bac4ebb8661534543efc"
   license "FSL-1.1-ALv2"
 
   depends_on "rust" => :build
@@ -15,6 +15,6 @@ class Envelope < Formula
   end
 
   test do
-    assert_match "envelope 1.3.15", shell_output("#{bin}/envelope --version")
+    assert_match "envelope 1.3.16", shell_output("#{bin}/envelope --version")
   end
 end
