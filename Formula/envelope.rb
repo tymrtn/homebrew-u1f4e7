@@ -10,23 +10,23 @@ class Envelope < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/tymrtn/U1F4E7/releases/download/v1.3.25/envelope-1.3.25-aarch64-apple-darwin.tar.gz"
-      sha256 "90e6b2e7b9fd1405c44683a7183aa83805288969c273fb726f35dc7474f3c7a2"
+      url "https://github.com/tymrtn/U1F4E7/releases/download/v1.3.26/envelope-1.3.26-aarch64-apple-darwin.tar.gz"
+      sha256 "0852f55e96e14c4812d422e27eef40f8584ae0f7e43f126e73740a7d536be37b"
     end
     on_intel do
-      url "https://github.com/tymrtn/U1F4E7/releases/download/v1.3.25/envelope-1.3.25-x86_64-apple-darwin.tar.gz"
-      sha256 "f5e64edaa404bc01eacea0ecc4582b21f4b1a460b581aed8e6c699262af22b81"
+      url "https://github.com/tymrtn/U1F4E7/releases/download/v1.3.26/envelope-1.3.26-x86_64-apple-darwin.tar.gz"
+      sha256 "a2f785fca5d9ea9a88c729c8c05f989b9a79ca0adf033de646e65feff7acea75"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tymrtn/U1F4E7/releases/download/v1.3.25/envelope-1.3.25-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d019b4090a689959d3e3f79ebce87a3dd860998d7b5390bcc29bff4df37f79e3"
+      url "https://github.com/tymrtn/U1F4E7/releases/download/v1.3.26/envelope-1.3.26-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "86afe2bbb70aaa990061efc25b9b628fb270af385252601657031ba420360785"
     end
     on_intel do
-      url "https://github.com/tymrtn/U1F4E7/releases/download/v1.3.25/envelope-1.3.25-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f881f10f44fd647ac25f74ffa35104002e6b51a3022696be525114f2033ade02"
+      url "https://github.com/tymrtn/U1F4E7/releases/download/v1.3.26/envelope-1.3.26-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "394bc03de0fe7d168e52eeabee107ef772b2f765933900865f71989e6198401a"
     end
   end
 
